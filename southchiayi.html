@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Chiayi Travel</title>
+     <link href="css/normalize.css" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Style CSS -->
+    <link href="css/style.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700,700i" rel="stylesheet">
+    <!-- FontAwesome CSS -->
+    <link rel="stylesheet" type="text/css" href="css/fontello.css">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style>
+	.modal-dialog {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.modal-content {
+  height: auto;
+  min-height: 100%;
+  border-radius: 0;
+}
+		.modal-header{
+			padding-top: 30px;
+			padding-bottom: 40px;
+		}
+		.modal-content{
+			text-align: center;
+			font-family: "微軟正黑體";
+			font-size: 50px;
+			font-size: bold;
+		}
+		.modal-body{
+			padding-top:40px;
+			text-align: left;
+			font-family: "微軟正黑體";
+			font-size: 20px;
+		
+		}
+	</style>
+</head>
+
+<body>
+    <div class="header-wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
+                    <a href="index.html"><img src="./images/logo.png" alt=""></a>
+                </div>
+                <div class="col-lg-10 col-md-12 col-sm-12 col-xs-12">
+                    <div class="navigation">
+                        <div id="navigation">
+                            <ul>
+                                <li><a href="index.html" title="Home">Home</a></li>
+                                <li><a href="northchiayi.html" title="northchiayi">北嘉義</a> </li>
+                                <li><a href="midchiayi.html" title="midchiayi">中嘉義</a> </li>
+                                <li class="active"><a href="southchiayi.html" title="southchiayi">南嘉義</a> </li>
+                                <li><a href="night.html" title="night">夜市</a> </li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- header-section close -->
+    <!-- page-header-start -->
+    <div class="page-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <div class="page-section">
+                     <img src="./images/3.jpg" alt="" class="img-responsive">
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <div class="page-section">
+                        <h1 class="page-title ">南嘉義</h1>
+                        <br><br><p>想知道南嘉義有哪幾個部分適合玩的嗎?想知道東石布袋還有甚麼更好玩的嗎?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- page-header-close -->
+    <!-- news-start -->
+    <div class="space-medium">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <div class="post-block">
+                        <div class="post-img" data-toggle="modal" data-target="#myModal" >
+                            <a href="#" class="imghover">
+                    <img src="./images/夜市/16.jpg" alt="" class="img-responsive"></a>
+                        </div>
+                        <!-- post block -->
+                        <div class="post-content">
+                            <div class="meta">
+                                <span class="meta-categories"><a href="#">食記</a></span>
+                                <span class="meta-date">30 July, 2017</span>
+                            </div>
+                            <h4><a href="#" class="title">[食記]嘉義布袋-古早味肉碟王</a></h4>
+                            <p> 古早味肉碟王位在景山國小旁邊而已，想要來用餐必須要google景山國小，直接搜尋古早味肉碟王是沒有辦法找到的....</p>
+                            <a><button data-toggle="modal" data-target="#myModal"  class="btn-link">read more</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <div class="post-block">
+                        <div class="post-img" data-toggle="modal" data-target="#myModal2" >
+                            <a href="#" class="imghover">
+                              <img src="./images/夜市/15.jpg" alt="" class="img-responsive">
+                               </a>
+                        </div>
+                        <!-- post block -->
+                        <div class="post-content">
+                            <div class="meta">
+                                <span class="meta-categories"><a href="#">食記</a></span>
+                                <span class="meta-date">29 July, 2018</span>
+                            </div>
+                            <h4><a href="#" class="title">[食記]嘉義東石-阿春小吃</a></h4>
+                            <p>來到俗稱蚵仔的故鄉的東石港，如果沒吃到又肥又大蚵仔，真的是相當可惜！....</p>
+                            <a><button data-toggle="modal" data-target="#myModal2"  class="btn-link">read more</button></a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <div class="post-block">
+                        <div class="post-img" data-toggle="modal" data-target="#myModal3" >
+                            <a href="#" class="imghover">
+                                <img src="./images/夜市/14.jpg" alt="" class="img-responsive"></a>
+                        </div>
+                        <!-- post block -->
+                        <div class="post-content">
+                            <div class="meta">
+                                <span class="meta-categories"><a href="#">食記</a> </span>
+                                <span class="meta-date">28 July, 2015</span>
+                            </div>
+                            <h4><a href="#" class="title">[食記]嘉義六腳-蒜頭餅</a></h4>
+                            <p>新寶珍囍餅專賣店創立於西元1950年，目前已傳承三代，擁有一甲子的製餅經驗....</p>
+                            <a><button data-toggle="modal" data-target="#myModal3"  class="btn-link">read more</button></a>
+                        </div>
+                    </div>
+                </div></div>
+                <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <div class="post-block">
+                        <div class="post-img" data-toggle="modal" data-target="#myModal4" >
+                            <a href="#" class="imghover">
+                                <img src="./images/夜市/18.jpg" alt="" class="img-responsive"></a>
+                        </div>
+                        <!-- post block -->
+                        <div class="post-content">
+                            <div class="meta">
+                                <span class="meta-categories"><a href="#">住宿</a> </span>
+                                <span class="meta-date">27 July, 2012</span>
+                            </div>
+                            <h4><a href="#" class="title">[住宿]嘉義太保-向日葵汽車旅館 </a></h4>
+                            <p> 耗資一億三千萬投資的向日葵汽車旅館，有別於一般汽車旅館的傳統形象...</p>
+                            <a><button data-toggle="modal" data-target="#myModal4"  class="btn-link">read more</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <div class="post-block">
+                        <div class="post-img" data-toggle="modal" data-target="#myModal5" >
+                            <a href="#" class="imghover">
+                              <img src="./images/夜市/17.jpg" alt="" class="img-responsive">
+                               </a>
+                        </div>
+                        <!-- post block -->
+                        <div class="post-content">
+                            <div class="meta">
+                                <span class="meta-categories"><a href="#">住宿</a></span>
+                                <span class="meta-date">24 July, 2012</span>
+                            </div>
+                            <h4><a href="#" class="title">[住宿]嘉義東石-船仔頭ㄟ厝</a></h4>
+                            <p>船仔頭年輕人嚴重外流，只有近百名老弱婦嬬守家園；但是文建會和嘉義縣政府民國八十五年在此舉辦全國文藝季...</p>
+                            <a><button data-toggle="modal" data-target="#myModal5"  class="btn-link">read more</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <div class="post-block">
+                        <div class="post-img" data-toggle="modal" data-target="#myModal6" >
+                            <a href="#" class="imghover">
+                                <img src="./images/夜市/21.jpg" alt="" class="img-responsive"></a>
+                        </div>
+                        <!-- post block -->
+                        <div class="post-content">
+                            <div class="meta">
+                                <span class="meta-categories"><a href="#">旅遊</a>  </span>
+                                <span class="meta-date">25 July, 2014</span>
+                            </div>
+                            <h4><a href="#" class="title">[旅遊]嘉義太保-故宮南院</a></h4>
+                            <p>國立故宮博物院南部院區，簡稱國立故宮南院或故宮南院... </p>
+                            <a><button data-toggle="modal" data-target="#myModal6"  class="btn-link">read more</button></a>
+                        </div>
+                    </div>
+                </div></div>
+                             <div class="row">
+                              <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <div class="post-block">
+                        <div class="post-img" data-toggle="modal" data-target="#myModal7" >
+                            <a href="#" class="imghover">
+                                <img src="./images/夜市/20.jpg" alt="" class="img-responsive"></a>
+                        </div>
+                        <!-- post block -->
+                        <div class="post-content">
+                            <div class="meta">
+                                <span class="meta-categories"><a href="#">旅遊</a></span>
+                                <span class="meta-date">25 July, 2015</span>
+                            </div>
+                            <h4><a href="#" class="title">[旅遊]嘉義東石-東石漁人碼頭</a></h4>
+                            <p> 東石漁人碼頭規劃以「風」、「陽光」、「魚」、「船」、「海洋」以及「燈塔」等元素... </p>
+                            <a><button data-toggle="modal" data-target="#myModal7"  class="btn-link">read more</button></a>
+                        </div>
+                    </div>
+                </div>
+                              <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <div class="post-block">
+                        <div class="post-img" data-toggle="modal" data-target="#myModal8" >
+                            <a href="#" class="imghover">
+                                <img src="./images/夜市/19.JPG" alt="" class="img-responsive"></a>
+                        </div>
+                        <!-- post block -->
+                        <div class="post-content">
+                            <div class="meta">
+                                <span class="meta-categories"><a href="#">旅遊</a>  </span>
+                                <span class="meta-date">25 July, 2010</span>
+                            </div>
+                            <h4><a href="#" class="title">[旅遊]嘉義布袋-高跟鞋教堂</a></h4>
+                            <p>嘉義布袋海景公園有一座高達17公尺的玻璃高跟鞋教堂，在2016年2月正式開放入內參觀... </p>
+                            <a><button data-toggle="modal" data-target="#myModal8"  class="btn-link">read more</button></a>
+                        </div>
+                    </div>
+                </div>
+                              <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <div class="post-block">
+                        <div class="post-img" data-toggle="modal" data-target="#myModal9" >
+                            <a href="#" class="imghover">
+                                <img src="./images/夜市/29.jpg" alt="" class="img-responsive"></a>
+                        </div>
+                        <!-- post block -->
+                        <div class="post-content">
+                            <div class="meta">
+                                <span class="meta-categories"><a href="#">旅遊</a>  </span>
+                                <span class="meta-date">25 July, 2010</span>
+                            </div>
+                            <h4><a href="#" class="title">[旅遊]嘉義布袋-好美里3D海洋世界</a></h4>
+                            <p>「好美3D海洋世界」在布袋鎮好美里，位於好美漁村公園號稱全國最大幅3D立體地畫最是吸睛，... </p>
+                            <a><button data-toggle="modal" data-target="#myModal9"  class="btn-link">read more</button></a>
+                        </div>
+                    </div>
+                </div>
+</div>
+                            
+<!--modal-->
+<div id="myModal" class="modal fade" role="dialog">
+ <div class="modal-dialog">
+<!--modal content--> 
+ <div class="modal-content">
+ <div class="modal-header">[食記]嘉義布袋-古早味肉碟王<button type="button" class="close" data-dismiss="modal">&times;</button>
+ </div>
+ <div class="modal-body"><div class="col-md-6">
+   <a href="http://aileen1596.pixnet.net/blog/post/47692656-%5B%E5%98%89%E7%BE%A9%5D-%E5%B8%83%E8%A2%8B%E5%82%B3%E7%B5%B1%E5%BF%85%E5%90%83%E7%BE%8E%E9%A3%9F%2Ccp%E5%80%BC%E8%B6%85%E9%AB%98%E7%9A%84%E5%8F%A4%E6%97%A9%E5%91%B3%E8%82%89"><img src="./images/夜市/16.jpg" class="img-responsive"></a></div>
+	 <div class="col-md-6">
+	 	<p>古早味肉碟王位在景山國小旁邊而已，想要來用餐必須要google景山國小，直接搜尋古早味肉碟王是沒有辦法找到的，是因為以前這家肉碟王沒有店名的關係。想要來這裡真的必須要騎車或是開車才有辦法到達，因為真的不算太好找，只不過基本上隨便問一下路邊的布袋人，他們都可以清楚的告訴你店家的位置，因為這家店在這裡已經算是歷史悠久的老店了，布袋人應該都吃過他們家的肉碟。<br><br>ps:點擊照片有部落客詳細說明</p>
+ </div></div>
+ <div class="modal-footer col-md-12"><button type="button" class="btn btn-danger" data-dismiss="modal">Close</button></div>
+ </div>
+</div>
+</div>
+<!--modal3-->
+ <div id="myModal3" class="modal fade" role="dialog">
+ <div class="modal-dialog">
+<!--modal content--> 
+ <div class="modal-content">
+ <div class="modal-header">[[食記]嘉義六腳-蒜頭餅<button type="button" class="close" data-dismiss="modal">&times;</button>
+ </div>
+ <div class="modal-body">
+  <div class="col-md-6">
+  <a href="http://bajenny.com/blog/post/24810373-%E3%80%8A%E5%9C%98%E8%B3%BC%E7%BE%8E%E9%A3%9F%E3%80%8B%E5%98%89%E7%BE%A9%E6%96%B0%E5%AF%B6%E7%8F%8D%E8%92%9C%E9%A0%AD%E9%A4%85"><img src="./images/夜市/14.jpg" class="img-responsive"></a></div>
+	 <div class="col-md-6">
+	 	<p>新寶珍囍餅專賣店創立於西元1950年，目前已傳承三代，擁有一甲子的製餅經驗，當中又以「蒜頭餅」最具代表性，蒜頭餅吃起來的口感酥酥脆脆，當中還有一股甘甜的蒜頭味道，也就是這一股味道牽引著許多家鄉的情懷，和那一份曾經的回憶，以蒜頭「回鄉餅」稱之，實在是再適合不過。<br><br>ps:點擊照片有部落客詳細說明</p>
+	 </div>
+ </div>
+ <div class="modal-footer col-md-12"><button type="button" class="btn btn-danger" data-dismiss="modal">Close</button></div>
+ </div>
+</div>
+</div>
+                                  <!--modal2-->
+ <div id="myModal2" class="modal fade" role="dialog">
+ <div class="modal-dialog">
+<!--modal content--> 
+ <div class="modal-content">
+ <div class="modal-header">[食記]嘉義東石-阿春小吃
+<button type="button" class="close" data-dismiss="modal">&times;</button>
+ </div>
+ <div class="modal-body"> <div class="col-md-6">
+	 <a href="https://mimihan.tw/chiayi-btofnd/"><img src="./images/夜市/15.jpg" class="img-responsive"></a></div>
+	 <div class="col-md-6">
+	 	<p>來到俗稱蚵仔的故鄉的東石港，如果沒吃到又肥又大蚵仔，真的是相當可惜！既然來到東石港當然不要錯過品嘗機會，巡禮東石港一圈後，決定來去這間人氣最旺平價美味小吃店-阿春小吃認明紅色招牌「東石阿春小吃」及名人電視台採訪加持的照片，不要跑錯間囉！<br><br>ps:點擊照片有部落客詳細說明</p>
+ </div></div>
+ <div class="modal-footer col-md-12"><button type="button" class="btn btn-danger" data-dismiss="modal">Close</button></div>
+ </div>
+</div>
+</div>
+                                  <!--modal4-->
+ <div id="myModal4" class="modal fade" role="dialog">
+ <div class="modal-dialog">
+<!--modal content--> 
+ <div class="modal-content">
+ <div class="modal-header">[住宿]嘉義太保-向日葵汽車旅館<button type="button" class="close" data-dismiss="modal">&times;</button>
+ </div>
+ <div class="modal-body"> <div class="col-md-6">
+   <a href="http://dj79109.pixnet.net/blog/post/37926108-%28%E4%BD%8F%E5%AE%BF-%E5%98%89%E7%BE%A9-%E5%A4%AA%E4%BF%9D%29-%E5%90%91%E6%97%A5%E8%91%B5%E6%B1%BD%E8%BB%8A%E6%97%85%E9%A4%A8-~-%E9%9B%A2%E5%98%89%E7%BE%A9%E9%AB%98"><img src="./images/夜市/18.jpg" class="img-responsive"></a></div>
+	 <div class="col-md-6">
+	 	<p> 耗資一億三千萬投資的向日葵汽車旅館，有別於一般汽車旅館的傳統形象，取名為向日葵，正是經營者欲將汽車旅館定位為燦爛陽光行腳處的用心。
+位於嘉義縣政府旁，向日葵汽車旅館擁有絕佳的地理位置及交通，遊客在縣府所在地，不但可以安心休憩，唯美典雅的建築外觀，更讓人心礦神怡。您可以選擇不必進市區和其他遊客擠在一層樓好幾間房的飯店，更便宜的價格，卻讓您有完整的隱私空間。<br><br>ps:點擊照片有部落客詳細說明</p>
+ </div></div>
+ <div class="modal-footer col-md-12"><button type="button" class="btn btn-danger" data-dismiss="modal">Close</button></div>
+ </div>
+</div>
+</div>
+                                  <!--modal5-->
+ <div id="myModal5" class="modal fade" role="dialog">
+ <div class="modal-dialog">
+<!--modal content--> 
+ <div class="modal-content">
+ <div class="modal-header">[住宿]嘉義東石-船仔頭ㄟ厝
+
+<button type="button" class="close" data-dismiss="modal">&times;</button>
+ </div>
+ <div class="modal-body"> <div class="col-md-6">
+	 <a href="http://bustravelclub.pixnet.net/blog/post/20259899-141-%E3%80%8A%E6%9D%B1%E7%9F%B3%E3%80%8B%E8%88%B9%E4%BB%94%E9%A0%AD%E3%84%9F%E5%8E%9D"><img src="./images/夜市/17.jpg" class="img-responsive"></a></div>
+	 <div class="col-md-6">
+	 	<p>船仔頭年輕人嚴重外流，只有近百名老弱婦嬬守家園；但是文建會和嘉義縣政府民國八十五年在此舉辦全國文藝季，以「船仔頭的呼喚」為新故鄉運動主題，鄉親成立船仔頭藝術村文教基金會，致力社區總體營造和關懷朴子溪再造，蔡振成、蔡伯扶兄弟率先返鄉，在破舊的老家新建雙拼透天厝，蔡振成、朱月桂夫婦配合嘉義縣拼觀光政策，取得嘉義縣第一家合法民宿執照</p>
+ </div></div>
+ <div class="modal-footer col-md-12"><button type="button" class="btn btn-danger" data-dismiss="modal">Close</button></div>
+ </div>
+</div>
+</div>
+                                  <!--modal6-->
+ <div id="myModal6" class="modal fade" role="dialog">
+ <div class="modal-dialog">
+<!--modal content--> 
+ <div class="modal-content">
+ <div class="modal-header">[旅遊]嘉義太保-故宮南院
+
+<button type="button" class="close" data-dismiss="modal">&times;</button>
+ </div>
+ <div class="modal-body"> <div class="col-md-6">
+	 <a href="http://as660707.pixnet.net/blog/post/444666083-%5B%E5%98%89%E7%BE%A9%E5%A4%AA%E4%BF%9D%E5%B8%82%E6%99%AF%E9%BB%9E%5D-%E6%95%85%E5%AE%AE%E5%8D%97%E9%99%A2"><img src="./images/夜市/21.jpg" class="img-responsive"></a></div>
+	 <div class="col-md-6">
+	 	<p>國立故宮博物院南部院區，簡稱國立故宮南院或故宮南院，定位為「亞洲藝術文化博物館」，位於臺灣嘉義縣太保市，鄰近高鐵嘉義站以及蒜頭糖廠，主要展示品為亞洲藝術文化，另設有主題庭園、人工湖和旅館等。 <br><br>ps:點擊照片有部落客詳細說明</p>
+ </div></div>
+ <div class="modal-footer col-md-12"><button type="button" class="btn btn-danger" data-dismiss="modal">Close</button></div>
+ </div>
+</div>
+</div>
+               <!--modal7-->
+ <div id="myModal7" class="modal fade" role="dialog">
+ <div class="modal-dialog">
+<!--modal content--> 
+ <div class="modal-content">
+ <div class="modal-header">[旅遊]嘉義東石-東石漁人碼頭
+<button type="button" class="close" data-dismiss="modal">&times;</button>
+ </div>
+ <div class="modal-body"> <div class="col-md-6">
+	 <a href="https://shine.gogoblog.tw/blogview.php?blogid=1758"><img src="./images/夜市/20.jpg" class="img-responsive"></a></div>
+	 <div class="col-md-6">
+	 	<p>東石漁人碼頭規劃以「風」、「陽光」、「魚」、「船」、「海洋」以及「燈塔」等元素，呈現出多重海洋風貌，重塑漁人碼頭的意象及荷蘭風味的入口意象。東石漁人碼頭希望以新鮮漁產及夕陽美景等資源作為觀光賣點，以港區景觀、文化特色、休閒遊憩及自然生態資源等，打造特有的主題意象，營造出一個具主題特色的觀光據點，繁榮地方經濟。 <br><br>ps:點擊照片有部落客詳細說明</p>
+ </div></div>
+ <div class="modal-footer col-md-12"><button type="button" class="btn btn-danger" data-dismiss="modal">Close</button></div>
+ </div>
+</div>
+</div>
+               <!--modal8-->
+ <div id="myModal8" class="modal fade" role="dialog">
+ <div class="modal-dialog">
+<!--modal content--> 
+ <div class="modal-content">
+ <div class="modal-header">[旅遊]嘉義布袋-高跟鞋教堂<button type="button" class="close" data-dismiss="modal">&times;</button>
+ </div>
+ <div class="modal-body"> <div class="col-md-6">
+	 <a href="http://navyblue77.pixnet.net/blog/post/45813226-%5B%E5%98%89%E7%BE%A9.%E5%B8%83%E8%A2%8B%5D%E5%A4%A9%E4%BD%BF%E9%81%BA%E8%90%BD%E7%9A%84%E7%8E%BB%E7%92%83%E8%88%9E%E9%9E%8B--%E9%AB%98%E8%B7%9F%E9%9E%8B%E6%95%99%E5%A0%82"><img src="./images/夜市/19.jpg" class="img-responsive"></a></div>
+	 <div class="col-md-6">
+	 	<p>嘉義布袋海景公園有一座高達17公尺的玻璃高跟鞋教堂，在2016年2月正式開放入內參觀。寬度約11公尺，由1269根鋼架、320餘片玻璃組合而成的藍色玻璃鞋教堂，耗費兩千多萬建造；藍色的玻璃高跟鞋建築在周圍綠園田野的襯托下，顯得相當耀眼突出。<br><br>ps:點擊照片有部落客詳細說明</p>
+ </div></div>
+ <div class="modal-footer col-md-12"><button type="button" class="btn btn-danger" data-dismiss="modal">Close</button></div>
+ </div>
+</div>
+</div>
+               <!--modal9-->
+ <div id="myModal9" class="modal fade" role="dialog">
+ <div class="modal-dialog">
+<!--modal content--> 
+ <div class="modal-content">
+ <div class="modal-header">[旅遊]嘉義布袋-好美里3D海洋世界<button type="button" class="close" data-dismiss="modal">&times;</button>
+ </div>
+ <div class="modal-body"> <div class="col-md-6">
+	 <a href="https://fupo.tw/blog/post/315720648"><img src="./images/夜市/29.jpg" class="img-responsive"></a></div>
+	 <div class="col-md-6">
+	 	<p>「好美3D海洋世界」在布袋鎮好美里，位於好美漁村公園號稱全國最大幅3D立體地畫最是吸睛，長48公尺、寬24公尺的地畫，耗時2個月完工，融入好美里沙灘擱淺的抹香鯨時事，將深海生物躍升大地畫主角，有大魷魚、大王烏賊、燈籠魚等，來個海洋大會師。<br><br>ps:點擊照片有部落客詳細說明</p>
+ </div></div>
+ <div class="modal-footer col-md-12"><button type="button" class="btn btn-danger" data-dismiss="modal">Close</button></div>
+ </div>
+</div>
+</div>
+                <!--modalfinish-->                   
+                                    
+                <!-- pagination start 
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <div class="st-pagination">
+                                <ul class="pagination">
+                                    <li><a href="#" aria-label="previous"><span aria-hidden="true">Previous</span></a> </li>
+                                    <li class="active"><a href="#">1</a></li>
+                                    <li><a href="#">2</a></li>
+                                    <li><a href="#">3</a></li>
+                                    <li> <a href="#" aria-label="Next"><span aria-hidden="true">Next</span></a> </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- pagination close -->
+                        
+            </div>
+        </div>
+                       <div class="footer">
+			</div>
+               
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery.min.js" type="text/javascript"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="js/navigation.js" type="text/javascript"></script>
+    <script src="js/menumaker.js" type="text/javascript"></script>
+    <script type="text/javascript" src="js/jquery.sticky.js"></script>
+    <script type="text/javascript" src="js/sticky-header.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Chiayi Travel</title>
+     <link href="css/normalize.css" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Style CSS -->
+    <link href="css/style.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700,700i" rel="stylesheet">
+    <!-- FontAwesome CSS -->
+    <link rel="stylesheet" type="text/css" href="css/fontello.css">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style>
+	.modal-dialog {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.modal-content {
+  height: auto;
+  min-height: 100%;
+  border-radius: 0;
+}
+		.modal-header{
+			padding-top: 30px;
+			padding-bottom: 40px;
+		}
+		.modal-content{
+			text-align: center;
+			font-family: "微軟正黑體";
+			font-size: 50px;
+			font-size: bold;
+		}
+		.modal-body{
+			padding-top:40px;
+			text-align: left;
+			font-family: "微軟正黑體";
+			font-size: 20px;
+		
+		}
+	</style>
+</head>
+
+<body>
+    <div class="header-wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
+                    <a href="index.html"><img src="./images/logo.png" alt=""></a>
+                </div>
+                <div class="col-lg-10 col-md-12 col-sm-12 col-xs-12">
+                    <div class="navigation">
+                        <div id="navigation">
+                            <ul>
+                                <li><a href="index.html" title="Home">Home</a></li>
+                                <li class="active"><a href="northchiayi.html" title="northchiayi">北嘉義</a> </li>
+                                <li><a href="midchiayi.html" title="midchiayi">中嘉義</a> </li>
+                                <li><a href="southchiayi.html" title="southchiayi">南嘉義</a> </li>
+                                <li><a href="night.html" title="night">夜市</a> </li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- header-section close -->
+    <!-- page-header-start -->
+    <div class="page-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <div class="page-section">
+                     <img src="./images/1.JPG" alt="" class="img-responsive">
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <div class="page-section">
+                        <h1 class="page-title ">北嘉義</h1>
+                        <br><br><p>想知道北嘉義有哪幾個地方適合旅遊的嗎?想要體驗農村的生活嗎?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- page-header-close -->
+    <!-- news-start -->
+    <div class="space-medium">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <div class="post-block">
+                        <div class="post-img" data-toggle="modal" data-target="#myModal" >
+                            <a href="#" class="imghover">
+                    <img src="./images/夜市/2.jpg" alt="" class="img-responsive"></a>
+                        </div>
+                        <!-- post block -->
+                        <div class="post-content">
+                            <div class="meta">
+                                <span class="meta-categories"><a href="#">食記</a></span>
+                                <span class="meta-date">30 July, 2017</span>
+                            </div>
+                            <h4><a href="#" class="title">[食記]嘉義民雄-民雄美食</a></h4>
+                            <p>民雄火車站號稱鵝肉一條街，每間生意都很不錯耶,但名聲最響亮的應該就是正宗民雄鵝肉亭了....</p>
+                            <a><button data-toggle="modal" data-target="#myModal"  class="btn-link">read more</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <div class="post-block">
+                        <div class="post-img" data-toggle="modal" data-target="#myModal2" >
+                            <a href="#" class="imghover">
+                              <img src="./images/夜市/24.JPG" alt="" class="img-responsive">
+                               </a>
+                        </div>
+                        <!-- post block -->
+                        <div class="post-content">
+                            <div class="meta">
+                                <span class="meta-categories"><a href="#">食記</a></span>
+                                <span class="meta-date">29 July, 2018</span>
+                            </div>
+                            <h4><a href="#" class="title">[食記]嘉義溪口-溪口美食</a></h4>
+                            <p>回家的路多久沒開車走過？兒時的回憶，你還記得多少？現在的溪口多了什麼你知道嗎?北極殿旁肉圓，味道還記得嗎？....</p>
+                            <a><button data-toggle="modal" data-target="#myModal2"  class="btn-link">read more</button></a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <div class="post-block">
+                        <div class="post-img" data-toggle="modal" data-target="#myModal3" >
+                            <a href="#" class="imghover">
+                                <img src="./images/夜市/1.jpg" alt="" class="img-responsive"></a>
+                        </div>
+                        <!-- post block -->
+                        <div class="post-content">
+                            <div class="meta">
+                                <span class="meta-categories"><a href="#">食記</a> </span>
+                                <span class="meta-date">28 July, 2015</span>
+                            </div>
+                            <h4><a href="#" class="title">[食記]嘉義大林-大林臭豆腐</a></h4>
+                            <p>大林臭豆腐位於嘉義大林，大林火車站前站，只要一出火車站，你就知道今天大林臭豆腐有沒有營業....</p>
+                            <a><button data-toggle="modal" data-target="#myModal3"  class="btn-link">read more</button></a>
+                        </div>
+                    </div>
+                </div></div>
+                <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <div class="post-block">
+                        <div class="post-img" data-toggle="modal" data-target="#myModal4" >
+                            <a href="#" class="imghover">
+                                <img src="./images/夜市/4.jpg" alt="" class="img-responsive"></a>
+                        </div>
+                        <!-- post block -->
+                        <div class="post-content">
+                            <div class="meta">
+                                <span class="meta-categories"><a href="#">住宿</a> </span>
+                                <span class="meta-date">27 July, 2012</span>
+                            </div>
+                            <h4><a href="#" class="title">[住宿]嘉義新港-德旺商旅 </a></h4>
+                            <p>德旺商旅以結合嘉義當地特色文化，建立優質頂級的休閒生活...</p>
+                            <a><button data-toggle="modal" data-target="#myModal4"  class="btn-link">read more</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <div class="post-block">
+                        <div class="post-img" data-toggle="modal" data-target="#myModal5" >
+                            <a href="#" class="imghover">
+                              <img src="./images/夜市/3.jpg" alt="" class="img-responsive">
+                               </a>
+                        </div>
+                        <!-- post block -->
+                        <div class="post-content">
+                            <div class="meta">
+                                <span class="meta-categories"><a href="#">住宿</a></span>
+                                <span class="meta-date">24 July, 2012</span>
+                            </div>
+                            <h4><a href="#" class="title">[住宿]嘉義民雄-二階堂商務旅館</a></h4>
+                            <p>二階堂商務旅館，不只是單純的住宿，更可在一天繁忙商務活動後，擺脫白天的喧鬧...</p>
+                            <a><button data-toggle="modal" data-target="#myModal5"  class="btn-link">read more</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <div class="post-block">
+                        <div class="post-img" data-toggle="modal" data-target="#myModal6" >
+                            <a href="#" class="imghover">
+                                <img src="./images/夜市/25.JPG" alt="" class="img-responsive"></a>
+                        </div>
+                        <!-- post block -->
+                        <div class="post-content">
+                            <div class="meta">
+                                <span class="meta-categories"><a href="#">旅遊</a>  </span>
+                                <span class="meta-date">25 July, 2014</span>
+                            </div>
+                            <h4><a href="#" class="title">[旅遊]嘉義新港-頂菜園</a></h4>
+                            <p>頂菜園鄉土館是一個已獲得勞委會補助的鄉土計劃園區，由陳明惠先生一手打造... </p>
+                            <a><button data-toggle="modal" data-target="#myModal6"  class="btn-link">read more</button></a>
+                        </div>
+                    </div>
+                </div></div>
+                             <div class="row">
+                              <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <div class="post-block">
+                        <div class="post-img" data-toggle="modal" data-target="#myModal7" >
+                            <a href="#" class="imghover">
+                                <img src="./images/夜市/5.jpg" alt="" class="img-responsive"></a>
+                        </div>
+                        <!-- post block -->
+                        <div class="post-content">
+                            <div class="meta">
+                                <span class="meta-categories"><a href="#">旅遊</a></span>
+                                <span class="meta-date">25 July, 2015</span>
+                            </div>
+                            <h4><a href="#" class="title">[旅遊]嘉義民雄-旺來山</a></h4>
+                            <p>旺萊山─採用神農獎鮮食鳳梨，絕不添加任何人工生長素... </p>
+                            <a><button data-toggle="modal" data-target="#myModal7"  class="btn-link">read more</button></a>
+                        </div>
+                    </div>
+                </div>
+                              <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <div class="post-block">
+                        <div class="post-img" data-toggle="modal" data-target="#myModal8" >
+                            <a href="#" class="imghover">
+                                <img src="./images/夜市/26.JPG" alt="" class="img-responsive"></a>
+                        </div>
+                        <!-- post block -->
+                        <div class="post-content">
+                            <div class="meta">
+                                <span class="meta-categories"><a href="#">旅遊</a>  </span>
+                                <span class="meta-date">25 July, 2010</span>
+                            </div>
+                            <h4><a href="#" class="title">[旅遊]嘉義溪口-愛溪口的秘密通道</a></h4>
+                            <p>結合社區居民、溪口國小學童等共同打造『愛溪口的秘密通道』... </p>
+                            <a><button data-toggle="modal" data-target="#myModal8"  class="btn-link">read more</button></a>
+                        </div>
+                    </div>
+                </div>
+                              <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <div class="post-block">
+                        <div class="post-img" data-toggle="modal" data-target="#myModal9" >
+                            <a href="#" class="imghover">
+                                <img src="./images/夜市/27.jpg" alt="" class="img-responsive"></a>
+                        </div>
+                        <!-- post block -->
+                        <div class="post-content">
+                            <div class="meta">
+                                <span class="meta-categories"><a href="#">旅遊</a>  </span>
+                                <span class="meta-date">25 July, 2010</span>
+                            </div>
+                            <h4><a href="#" class="title">[旅遊]嘉義民雄-星巴克</a></h4>
+                            <p>這間民雄星巴克，是全台第十間附設有『得來速』的星巴克店舖... </p>
+                            <a><button data-toggle="modal" data-target="#myModal9"  class="btn-link">read more</button></a>
+                        </div>
+                    </div>
+                </div>
+</div>
+                            
+<!--modal-->
+<div id="myModal" class="modal fade" role="dialog">
+ <div class="modal-dialog">
+<!--modal content--> 
+ <div class="modal-content">
+ <div class="modal-header">嘉義民雄-鵝肉美食<button type="button" class="close" data-dismiss="modal">&times;</button>
+ </div>
+ <div class="modal-body"><div class="col-md-6">
+   <a href="http://eeooa0314.pixnet.net/blog/post/448679465-%E3%80%90%E5%98%89%E7%BE%A9%E7%BE%8E%E9%A3%9F%E3%80%91%E6%AD%A3%E5%AE%97%E6%B0%91%E9%9B%84%E9%B5%9D%E8%82%89%E4%BA%AD-%E2%99%A5-%E4%BE%86%E5%88%B0%E6%B0%91%E9%9B%84%E4%B8%80"><img src="./images/夜市/12.jpg" class="img-responsive"></a></div>
+	 <div class="col-md-6">
+	 	<p>民雄火車站號稱鵝肉一條街，每間生意都很不錯耶,但名聲最響亮的應該就是正宗民雄鵝肉亭了，這鵝肉鮮嫩多汁,完全不柴，吃過後就會知道民雄鵝肉為何這麼有名氣了，鵝肉本身也帶有鹹度了，不沾醬單吃也OK。<br><br>ps:點擊照片有部落客詳細說明</p>
+ </div></div>
+ <div class="modal-footer col-md-12"><button type="button" class="btn btn-danger" data-dismiss="modal">Close</button></div>
+ </div>
+</div>
+</div>
+<!--modal2-->
+ <div id="myModal2" class="modal fade" role="dialog">
+ <div class="modal-dialog">
+<!--modal content--> 
+ <div class="modal-content">
+ <div class="modal-header">[食記]嘉義溪口-溪口美食<button type="button" class="close" data-dismiss="modal">&times;</button>
+ </div>
+ <div class="modal-body">
+  <div class="col-md-6">
+  <a href="http://im5303111.pixnet.net/blog/post/62444201-%E6%BA%AA%E5%8F%A3%E8%82%89%E5%9C%93"><img src="./images/夜市/24.jpg" class="img-responsive"></a></div>
+	 <div class="col-md-6">
+	 	<p>回家的路多久沒開車走過？兒時的回憶，你還記得多少？現在的溪口多了什麼你知道嗎?北極殿旁肉圓，味道還記得嗎？
+肉圓簡單的內餡、清脆的竹筍、入味的肉塊、甜而不膩的醬汁，樣樣都有濃厚的樸實感，肉圓皮的Ｑ勁，代表著溪口人的韌性！內餡飽滿，代表溪口人滿腔的熱情！果然稱的上最具代表性的家鄉味阿！<br><br>ps:點擊照片有部落客詳細說明</p>
+	 </div>
+ </div>
+ <div class="modal-footer col-md-12"><button type="button" class="btn btn-danger" data-dismiss="modal">Close</button></div>
+ </div>
+</div>
+</div>
+                                  <!--modal3-->
+ <div id="myModal3" class="modal fade" role="dialog">
+ <div class="modal-dialog">
+<!--modal content--> 
+ <div class="modal-content">
+ <div class="modal-header">[食記]嘉義大林-大林臭豆腐<button type="button" class="close" data-dismiss="modal">&times;</button>
+ </div>
+ <div class="modal-body"> <div class="col-md-6">
+	 <a href="http://nickhow.tw/blog/post/444776546-%5B%E5%98%89%E7%BE%A9%E5%A4%A7%E6%9E%97%5D-%E5%A4%96%E9%85%A5%E5%85%A7%E8%BB%9F%E8%BE%A3%E6%A4%92%E9%A6%99%E6%B0%A3%E5%8D%81%E8%B6%B3%E7%9A%84%E5%A4%A7%E6%9E%97%E8%87%AD%E8%B1%86"><img src="./images/夜市/1.jpg" class="img-responsive"></a></div>
+	 <div class="col-md-6">
+	 	<p>大林臭豆腐位於嘉義大林，大林火車站前站，只要一出火車站，你就知道今天大林臭豆腐有沒有營業，說到台灣在地小吃，當然少不了就是各地特色小吃，這次來到嘉義不是要吃雞肉飯，而是到了大林火車站前，來吃這家超人氣的臭豆腐，每次來幾乎都要排隊呢。<br><br>ps:點擊照片有部落客詳細說明</p>
+ </div></div>
+ <div class="modal-footer col-md-12"><button type="button" class="btn btn-danger" data-dismiss="modal">Close</button></div>
+ </div>
+</div>
+</div>
+                                  <!--modal4-->
+ <div id="myModal4" class="modal fade" role="dialog">
+ <div class="modal-dialog">
+<!--modal content--> 
+ <div class="modal-content">
+ <div class="modal-header">[住宿]嘉義新港-德旺商旅<button type="button" class="close" data-dismiss="modal">&times;</button>
+ </div>
+ <div class="modal-body"> <div class="col-md-6">
+   <a href="http://su327396.pixnet.net/blog/post/116654141-%3C%E5%98%89%E7%BE%A9%E6%96%B0%E6%B8%AF%3E-%E5%A5%BD%E5%90%83%E5%A5%BD%E7%8E%A9%E5%A5%BD%E4%BD%8F%E5%AE%BF-%E5%BE%B7%E6%97%BA%E5%95%86%E6%97%85-%E9%87%91%E8%AE%9A%E6%88%90-"><img src="./images/夜市/4.jpg" class="img-responsive"></a></div>
+	 <div class="col-md-6">
+	 	<p>德旺商旅以建立優質頂級的休閒生活，為遊客寫下濃厚的文化旅程回憶而建立。<br><br>ps:點擊照片有部落客詳細說明</p>
+ </div></div>
+ <div class="modal-footer col-md-12"><button type="button" class="btn btn-danger" data-dismiss="modal">Close</button></div>
+ </div>
+</div>
+</div>
+                                  <!--modal5-->
+ <div id="myModal5" class="modal fade" role="dialog">
+ <div class="modal-dialog">
+<!--modal content--> 
+ <div class="modal-content">
+ <div class="modal-header">[住宿]嘉義民雄-二階堂商務旅館
+<button type="button" class="close" data-dismiss="modal">&times;</button>
+ </div>
+ <div class="modal-body"> <div class="col-md-6">
+	 <a href="http://gkingdom.pixnet.net/blog/post/49200914-%E4%BA%8C%E9%9A%8E%E5%A0%82%E5%95%86%E5%8B%99%E6%97%85%E9%A4%A8%EF%BD%9C%E5%98%89%E7%BE%A9%E4%BD%8F%E5%AE%BF%EF%B8%B1%E7%BE%8E%E9%A3%9F%E7%8E%8B%E5%9C%8B"><img src="./images/夜市/3.jpg" class="img-responsive"></a></div>
+	 <div class="col-md-6">
+	 	<p>二階堂商務旅館，不只是單純的住宿，更可在一天繁忙商務活動後，擺脫白天的喧鬧；二階堂擁有43間舒適雅致的雙人客房與套房，典雅的舒適感，讓心靈瞬間澄淨，每間客房都配置上網專線，讓您隨時掌握商機，精緻的美食與多元化的商務服務，紓解舟車勞頓與商務出差的疲累，取而代之的是最悠然的度假冥想。<br><br>ps:點擊照片有部落客詳細說明</p>
+ </div></div>
+ <div class="modal-footer col-md-12"><button type="button" class="btn btn-danger" data-dismiss="modal">Close</button></div>
+ </div>
+</div>
+</div>
+                                  <!--modal6-->
+ <div id="myModal6" class="modal fade" role="dialog">
+ <div class="modal-dialog">
+<!--modal content--> 
+ <div class="modal-content">
+ <div class="modal-header">[旅遊]嘉義新港-頂菜園
+<button type="button" class="close" data-dismiss="modal">&times;</button>
+ </div>
+ <div class="modal-body"> <div class="col-md-6">
+	 <a href="http://aabbaabb88.pixnet.net/blog/post/208824187-%E3%80%90%E9%81%8A%E8%A8%98%E3%80%91%E5%98%89%E7%BE%A9%E7%B8%A3%E3%80%82%E6%96%B0%E6%B8%AF%E9%84%89%EF%BC%8D%E9%A0%82%E8%8F%9C%E5%9C%92%E9%84%89%E5%9C%9F%E9%A4%A8%E3%80%82%E9%81%A9"><img src="./images/夜市/25.jpg" class="img-responsive"></a></div>
+	 <div class="col-md-6">
+	 	<p>頂菜園鄉土館是一個已獲得勞委會補助的鄉土計劃園區，由陳明惠先生一手打造。陳明惠是嘉義人，他為了不讓人忘記早期的鄉土生活，親手重現了台灣五○年代的鄉土農村生活，透過創意的發想，在土生土長、一輩子未曾離開過的新港鄉頂菜園，一磚一瓦的塑造成一個世外桃源。園區內為了徹底呈現農業時代的景觀，甚至不建圍牆，且到處都可以看到廢物利用的巧思，極具鄉土原味<br><br>ps:點擊照片有部落客詳細說明</p>
+ </div></div>
+ <div class="modal-footer col-md-12"><button type="button" class="btn btn-danger" data-dismiss="modal">Close</button></div>
+ </div>
+</div>
+</div>
+               <!--modal7-->
+ <div id="myModal7" class="modal fade" role="dialog">
+ <div class="modal-dialog">
+<!--modal content--> 
+ <div class="modal-content">
+ <div class="modal-header">[旅遊]嘉義民雄-旺來山
+<button type="button" class="close" data-dismiss="modal">&times;</button>
+ </div>
+ <div class="modal-body"> <div class="col-md-6">
+	 <a href="http://ating.blog/pineapple-hill/"><img src="./images/夜市/5.jpg" class="img-responsive"></a></div>
+	 <div class="col-md-6">
+	 	<p>旺萊山─坐落於民雄鄉廣達700餘公頃的鳳梨田中，採用神農獎鮮食鳳梨，絕不添加任何人工生長素，並堅持保留鳳梨最佳原始的風味，在鳳梨的故鄉─民雄鄉的土地上，誕生出最好的鳳梨酥。<br><br>ps:點擊照片有部落客詳細說明</p>
+ </div></div>
+ <div class="modal-footer col-md-12"><button type="button" class="btn btn-danger" data-dismiss="modal">Close</button></div>
+ </div>
+</div>
+</div>
+               <!--modal8-->
+ <div id="myModal8" class="modal fade" role="dialog">
+ <div class="modal-dialog">
+<!--modal content--> 
+ <div class="modal-content">
+ <div class="modal-header">[旅遊]嘉義溪口-愛溪口的秘密通道<button type="button" class="close" data-dismiss="modal">&times;</button>
+ </div>
+ <div class="modal-body"> <div class="col-md-6">
+	 <a href="http://jasmine0425.pixnet.net/blog/post/339159266-%E2%96%8C%E9%81%8A%E8%A8%98-%E2%96%8C%E5%98%89%E7%BE%A9%E3%80%82%E6%BA%AA%E5%8F%A3-%E6%84%9B%E6%BA%AA%E5%8F%A3%E7%A7%98%E5%AF%86%E9%80%9A%E9%81%93%E5%BD%A9%E7%B9%AA%E6%9D%91-"><img src="./images/夜市/26.jpg" class="img-responsive"></a></div>
+	 <div class="col-md-6">
+	 	<p>101年遂請藝術家潘朵拉以『愛麗絲夢遊仙境』為發想，成長、童玩為創作主軸，並結合社區居民、溪口國小學童等共同打造『愛溪口的秘密通道』，藝術家黃文淵更以漂流木等素材，用溪口產業特色打造主角人物有「愛溪口」、 「麵線妹」、「竹簍哥」、「陀螺弟」等，讓秘密通道更多元更有探索性，歡迎您來漫遊探索喔！<br><br>ps:點擊照片有部落客詳細說明</p>
+ </div></div>
+ <div class="modal-footer col-md-12"><button type="button" class="btn btn-danger" data-dismiss="modal">Close</button></div>
+ </div>
+</div>
+</div>
+               <!--modal9-->
+ <div id="myModal9" class="modal fade" role="dialog">
+ <div class="modal-dialog">
+<!--modal content--> 
+ <div class="modal-content">
+ <div class="modal-header">[旅遊]嘉義民雄-星巴克<button type="button" class="close" data-dismiss="modal">&times;</button>
+ </div>
+ <div class="modal-body"> <div class="col-md-6">
+	 <a href="http://philos550915.pixnet.net/blog/post/462924776-%E3%80%90%E6%B0%91%E9%9B%84%E6%98%9F%E5%B7%B4%E5%85%8B%E3%80%91%E5%98%89%E7%BE%A9%E6%B0%91%E9%9B%84%EF%BD%9E%E5%85%A8%E5%8F%B0%E6%9C%80%E7%BE%8E%E6%98%9F%E5%B7%B4%E5%85%8B%E3%80%82"><img src="./images/夜市/27.jpg" class="img-responsive"></a></div>
+	 <div class="col-md-6">
+	 	<p>這間民雄星巴克，是全台第十間附設有『得來速』的星巴克店舖，所以想喝咖啡的人，不用下車也可以方便取得，點餐的方式和一般速食店一樣進入車道後，先在螢幕上與店員對談點餐，而且螢幕上會秀出店員大大的臉龐，這點也很有趣呢 <br><br>ps:點擊照片有部落客詳細說明</p>
+ </div></div>
+ <div class="modal-footer col-md-12"><button type="button" class="btn btn-danger" data-dismiss="modal">Close</button></div>
+ </div>
+</div>
+</div>
+                <!--modalfinish-->                   
+                                    
+                <!-- pagination start 
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <div class="st-pagination">
+                                <ul class="pagination">
+                                    <li><a href="#" aria-label="previous"><span aria-hidden="true">Previous</span></a> </li>
+                                    <li class="active"><a href="#">1</a></li>
+                                    <li><a href="#">2</a></li>
+                                    <li><a href="#">3</a></li>
+                                    <li> <a href="#" aria-label="Next"><span aria-hidden="true">Next</span></a> </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- pagination close -->
+         
+            </div>
+        </div>
+                       <div class="footer">
+			</div>
+               
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery.min.js" type="text/javascript"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="js/navigation.js" type="text/javascript"></script>
+    <script src="js/menumaker.js" type="text/javascript"></script>
+    <script type="text/javascript" src="js/jquery.sticky.js"></script>
+    <script type="text/javascript" src="js/sticky-header.js"></script>
+</body>
+
+</html>
